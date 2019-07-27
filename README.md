@@ -13,7 +13,7 @@ It has no dependencies.
 Resize an image to fit into a 1300x800 box while maintaining the aspect ratio:
 
 ```
-png2ff < in.png | ./resize 1300 800 | ff2png > out.png
+png2ff < in.png | ./ff-resize 1300 800 | ff2png > out.png
 ```
 
 ## Technical Details

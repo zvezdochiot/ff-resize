@@ -2,7 +2,7 @@
 # See LICENSE file for copyright and license details
 include config.mk
 
-resize: resize.c
+ff-resize: ff-resize.c
 
 clean:
-	rm -f resize
+	rm -f ff-resize
